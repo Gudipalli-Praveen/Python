@@ -1,37 +1,42 @@
 # increasing triangle star
-'''n = 6
+
+n = 6
 for i in range(n):
     for j in range(i+1):
         print("*",end=" ")
-    print()'''
+    print()
 
 # decreasing triangle star
-'''n = 5
+
+n = 5
 for i in range(n):
     for j in range(i,n):
         print("*",end=" ")
-    print()'''
+    print()
 
 # right side increasing triangle
-'''n = 5
+
+n = 5
 for i in range(n):
     for j in range(i,n):
         print(" ",end=" ")
     for j in range(i+1):
         print("*",end=" ")
-    print()'''
+    print()
 
 #right side decreasing triangle
-'''n = 5
+
+n = 5
 for i in range(n):
     for j in range(i+1):
         print(" ",end=" ")
     for j in range(i,n):
         print("*",end=" ")
-    print()'''
+    print()
 
 # hill pattern
-'''n = 5
+
+n = 5
 for i in range(n):
     for j in range(i,n):
         print(" ",end=" ")
@@ -39,10 +44,11 @@ for i in range(n):
         print("*",end=" ")
     for j in range(i+1):
         print("*",end=" ")
-    print()'''
+    print()
 
 # reverse hill pattern
-'''n = 5
+
+n = 5
 for i in range(n):
     for j in range(i+1):
         print(" ",end=" ")
@@ -50,10 +56,11 @@ for i in range(n):
         print("*",end=" ")
     for j in range(i,n):
         print("*",end=" ")
-    print()'''
+    print()
 
 # diamond pattern
-'''n = 5
+
+n = 5
 for i in range(n-1):
     for j in range(i,n):
         print(" ",end=" ")
@@ -69,14 +76,4 @@ for i in range(n):
         print("*",end=" ")
     for j in range(i,n):
         print("*",end=" ")
-    print()'''
-
-n = 5
-for i in range(n):
-    for j in range(i,n):
-        print(" ",end=" ")
-    for j in range(i):
-        print(j+1,end=" ")
-    for j in range(i+1):
-        print(j+1,end=" ")
     print()
